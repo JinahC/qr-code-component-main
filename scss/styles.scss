@@ -1,0 +1,60 @@
+@import 'variables';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: $light-gray;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: $white;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 15px;
+    max-width: 320px;
+    text-align: center;
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    h1 {
+        color: $dark-blue;
+        font-weight: 700;
+        margin: 15px 0;
+        font-size: 22px;
+    }
+
+    p {
+        color: $grayish-blue;
+        font-weight: 400;
+        font-size: $font-size;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        padding: 0 15px;
+
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+        color: $dark-blue;
+    }
+}
